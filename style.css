@@ -1,0 +1,296 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+#Header{
+    background-image: url("Images/pic 3.jpg");
+    height: 90vh;
+    background-size: 100%;
+    background-position: center;
+    c
+    color: blue;
+
+}
+.navbar-nav
+{
+    float: right;
+    text-decoration-color: blue;
+}.navbar-brand img{
+    width: 30px;
+    margin-left: 30px;
+
+ }
+.navbar-nav{
+    border: none;
+    outline: navy;
+}
+nav .fa-bars{
+    color: #fff !important;
+    font-size:26px ;
+}
+/*-----------------welcome text-----------------------*/
+.welcome h1,p{
+    color: indigo;
+}
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: azure;
+    background-color: blue;
+}
+/*----------------------About----------------------*/
+#About{
+    padding-top:100px ;
+    padding-bottom: 100px;
+    background-image: url("images/pic 4.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+#About .col-md-6{
+    padding: 20px 10px;
+}
+#About h3,p{
+    margin: 20px auto;
+    color: white;
+
+}
+/*-----------------------------services----------------------------------------*/
+
+#services h3{
+    color: #0000bf;
+}
+#services h4{
+    color: indigo;
+}
+#services {
+    background-image: url("Images/pic 4.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+}
+#services .col-md-3{
+
+    padding-bottom: 20px;
+}
+#services .col-md-3 h4{
+
+    padding-bottom: 5px;
+}
+}
+#services .col-md-3 img{
+
+    width: 50px;
+}
+/*------------------------services2-------------------------------*/
+
+#services2 h4{
+    color: indigo;
+}
+#services2 {
+    background-image: url("Images/pic 4.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#services2 .col-md-3{
+
+    padding-bottom: 20px;
+}
+#services2 .col-md-3 h4{
+
+    padding-bottom: 5px;
+}
+}
+#services2 .col-md-3 img{
+
+    width: 50px;
+}
+/*---------------------------features-------------------------------*/
+#features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("Images/pic 16.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center ;
+
+}
+
+#features .col-md-6{
+    padding: 20px;
+}
+.features-box{
+    height: 120px;
+
+}
+.features-box .features-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+
+
+}
+.features-box .features-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.features-box .features-right h4,p{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+/*-------------------testimonials------------------------*/
+#testimonials{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonials.col-md-4{
+    padding: 10px 30px ;
+}
+#testimonials img{
+    width: 120px;
+    height: 60px;
+    border-radius:50px;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+#testimonials h4{
+    color: #0000bf;
+    background-position: center}
+}
+.review{
+  font-size:12px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}#testimonials h4{
+    margin-top: 60px;
+ }
+#testimonials p{
+    margin-bottom: 40px;
+}
+/*--------------------------Registration---------------------------------*/
+#registration{
+    background-image: url("Images/pic 4.gif");
+    background-repeat:no-repeat ;
+    background-size: 180%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*.signup-box {
+    width: 360px;
+    height: 820px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.login-box {
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+*/
+form label {
+    display: flex;
+    color: black;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+/*input[type="button"] {
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: chartreuse;
+    color: #0000bf;
+    font-size: 18px;
+}*/
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para-2 a {
+    color: firebrick;
+    font-size: large;
+}
+/*--------------------Contact Us-----------------------*/
+.contact {
+    padding  : 50px 20px;
+    background-color: #0000bf;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.contact h3,p{
+    color: white;
+}
+.contact .input-group{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.contact .form-control{
+   border: none;
+    background: transparent;
+}
+.contact .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+}
+.contact .input-group-append {
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+.subscribe .input-group-text{
+  background: transparent;
+    border: none;
+    color: #fff;
+}
+,subscribe .btn:focus{
+    box-shadow: none;
+ }
+
